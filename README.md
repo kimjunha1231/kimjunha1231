@@ -2,8 +2,8 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=36:86a1a9,100:b2cfb6&height=200&section=header&text=Welcome%20to%20junha's%20GitHub%20👋&fontSize=40" width="100%" />
 </p>
 
-💻 **Frontend & Flutter Developer**  
-🎓 **Soongsil Univ, Computer Science and Engineering** (2026년 8월 졸업 예정)
+💻 **Frontend Developer**  
+🎓 **숭실대학교 컴퓨터학부** (2020.03 ~ 2026년 8월 졸업 예정)
 
 > AI를 적극적으로 활용하여 생산성을 높이고, 성능 최적화, UI/UX 개선, 코드 퀄리티 등 기술적인 문제에 관심을 가지기 위해 노력하고 있습니다.
 
