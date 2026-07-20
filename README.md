@@ -26,9 +26,12 @@
 ## 🎖️ Certifications
 | 자격증 | 발급처 | 취득일자 |
 | :--- | :--- | :--- |
+| TOEIC Speaking · IM3 | TOEIC | 2026.06 |
 | SQLD | 한국데이터진흥원 | 2026.06 |
 | 정보처리기사 | 한국산업인력공단 | 2025.12 |
 | MOS Excel Expert 2016 | Microsoft | 2024.06 |
+
+
 
 ---
 
