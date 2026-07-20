@@ -53,8 +53,7 @@
 <img src="https://img.shields.io/badge/Redis-%23DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
 
 ### State & Styling
-<img src="https://img.shields.io/badge/TanStack%20Query-%23FF4154?style=for-the-badge&logo=reactquery&logoColor=white"/>
-<img src="https://img.shields.io/badge/Zustand-%23443E38?style=for-the-badge&logo=react&logoColor=white"/>
+<img src="https://img.shields.io/badge/TanStack%20Query-%23FF4154?style=for-the-badge&logo=reactquery&logoColor=white"/> <img src="https://img.shields.io/badge/Zustand-%23443E38?style=for-the-badge&logo=react&logoColor=white"/>
 <img src="https://img.shields.io/badge/Tailwind%20CSS-%2306B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
 <img src="https://img.shields.io/badge/styled--components-%23DB7093?style=for-the-badge&logo=styledcomponents&logoColor=white"/>
 
