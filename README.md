@@ -32,14 +32,14 @@
 
 ### [dnd-kit #2135 · Track late signal reads across framework adapters](https://github.com/clauderic/dnd-kit/pull/2135) `Merged · 2026.09`
 
-오픈소스 드래그 앤 드롭 라이브러리 [dnd-kit](https://github.com/clauderic/dnd-kit)에서 컴포넌트가 첫 렌더링 이후 새로 읽은 `Signal` 속성을 다음 상태 변경부터 구독하지 못하는 문제를 재현하고 수정했습니다.
+JobSecretary의 칸반보드 렌더링 분석을 계기로 최신 `@dnd-kit/react`의 상태 구독을 살펴봤습니다. 첫 렌더링 이후 새로 읽은 `Signal` 속성의 변경 알림을 놓치는 문제를 재현하고, React 초기 수정안과 회귀 테스트를 작성해 PR을 제출했습니다.
 
-* `Proxy`가 기록한 늦은 상태 읽기를 커밋 이후 구독 목록에 반영
-* 대상 교체·unmount·Strict Mode에서 구독 정리 보완
-* React·Vue·Solid·Svelte adapter 회귀 테스트와 조건부 상태 예제 추가
-* build 16개, unit test 150개, framework별 Chromium 회귀 테스트 검증
+* `useDeepSignal`에서 나중에 읽은 속성도 구독하도록 effect 실행 조건을 조정한 초기 수정안 작성
+* `isDragSource`를 조건부로 읽는 Storybook 재현 예제 추가
+* 포인터·키보드의 늦은 상태 읽기와 첫 렌더링 동작을 확인하는 회귀 테스트 **3개** 추가
+* `@dnd-kit/react` patch changeset 작성 및 PR 제출 → `main` 병합
 
-> 개인 프로젝트 JobSecretary의 칸반보드에서 시작한 관찰을 최소 재현 코드와 테스트로 줄여 라이브러리 수정으로 연결한 기여입니다.
+> [직접 제출한 초기 커밋](https://github.com/clauderic/dnd-kit/commit/5185c8f75c087a9df5a240413fcd639e27f3a078)을 기준으로 정리했습니다. 이후 메인테이너 `clauderic`이 [React 구독 유지·Strict Mode 등 후속 보완](https://github.com/clauderic/dnd-kit/commit/fd16a76817b97f7cf144b451139952dc7f75bfe2)과 [Vue·Solid·Svelte 수정 및 테스트 확장](https://github.com/clauderic/dnd-kit/commit/07447dbeb6bf79b65732edeb26dd6bc413b94707)을 추가해 최종 병합했습니다.
 
 ## 🚀 Projects
 
@@ -51,7 +51,7 @@ React·Spring Boot 기반 B2B 재고 운영 플랫폼입니다. 여러 판매 �
 
 * 최종 프로젝트 **우수상**
 * AND 다중 필터 조회 목록 17.99초 관찰 → 726ms 관찰
-* production preview Lighthouse Performance 99점, LCP 0.8초 관찰
+* 통합 재고 Lighthouse 성능 70 → 99점, TBT 1,650 → 100ms 관찰
 
 ### Smart Messaging System · AI 통합 메시징 서비스 `2026.07`
 
