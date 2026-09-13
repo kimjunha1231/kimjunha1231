@@ -7,7 +7,7 @@
 
 > AI를 도구로 활용해 개발 생산성을 높이고, 성능 최적화·UI/UX·데이터 흐름·코드 품질을 함께 개선하는 개발자입니다.
 
-🔗 [Portfolio](https://kimjunha.vercel.app) · [Tech Blog](https://kimjunha.vercel.app/blog) · [GitHub](https://github.com/kimjunha1231)
+🔗 [Portfolio](https://kimjunha.vercel.app) · [Tech Blog](https://kimjunha.vercel.app/blog) 
 
 ---
 
